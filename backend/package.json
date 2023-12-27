@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "backend server",
   "main": "server.js",
+  "type": "module",
   "scripts": {
-    "test": "node server.js",
-    "start": "node server.js"
+    "test": "node server.js"
   },
   "author": "shailesh bisht",
   "license": "ISC",
