@@ -7,7 +7,7 @@ app.get('/', (req, res) => {
     res.send('server is ready')
 });
 
-app.get('/deepjokes', (req, res) => {
+app.get('/api/jokes', (req, res) => {
     const jokes = [
         {
           id: 1,
@@ -32,5 +32,5 @@ app.get('/deepjokes', (req, res) => {
 const Port = process.env.PORT || 3000;
 
 app.listen(Port, () => {
-    console.log(`your server listening at:- http://localhost:${Port}/`)
+    console.log(`your server listening at:- http://localhost:${Port}/api/jokes`)
 })
